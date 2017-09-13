@@ -604,19 +604,21 @@ input:-ms-input-placeholder {
 }
 
 .menu-bg{
-    background:#ffc038;
-    padding:10px 0;
+    background-color: #ffc038;
+    padding:12px 0;
 }
 
 
 /*Home Page Style*/
 
 #home{
-    background-color:#ffc038;
+    background-image: url(../images/back-02.png);
+    background-size: 1350px;
+    alignment-baseline: auto;
     color:#fff;
 }
 .homepage-style{
-    padding-top:100px;
+    padding-top:90px;
 }
 
 .homepage-style .top-arrow img{
@@ -625,9 +627,17 @@ input:-ms-input-placeholder {
 
 .homepage-style .unique-apps h2{
     font-size: 35px;
-    font-weight: 500;
+    font-weight: 600;
     text-transform:uppercase;
+    color:#464646;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: white;
 }
+
+.homepage-style .unique-apps p{
+    color:#000000;
+}
+
 .homepage-style .slider-area{
 
 }
@@ -958,7 +968,7 @@ input:-ms-input-placeholder {
 /*Hire Us Area*/
 
 .hire-content{
-    background: url(../images/hire-us.png) no-repeat center top scroll;
+    background: url(../images/img.jpg) no-repeat center top scroll;
     background-size
     -moz-background-size: cover;
     -webkit-background-size: cover;
