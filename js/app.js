@@ -146,7 +146,7 @@
 });
 
     /*
-    Sand newsletter
+    Send newsletter
     **********************************************************************/
     $('#subscribe').click(function () {
         var error = false;
@@ -189,7 +189,7 @@
     });
 
     /*
-Sand mail
+Send mail
 **********************************************************************/
 $("#send-mail").click(function () {
 
@@ -377,8 +377,8 @@ $("#send-mail").click(function () {
 
 function initializeMap() {
 
-    var lat = '44.8164056'; //Set your latitude.
-    var lon = '20.46090424'; //Set your longitude.
+    var lat = '10.7167'; //Set your latitude.
+    var lon = '122.2650'; //Set your longitude.
 
     var centerLon = lon - 0.0105;
 
