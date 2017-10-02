@@ -200,6 +200,23 @@ p {
     -o-transform: scale(1.1, 1.1);
     -ms-transform: scale(1.1, 1.1);
 }
+.large-in {
+    -webkit-transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -webkit-transition: all 250ms ease;
+    -moz-transition: all 250ms ease;
+    -o-transition: all 250ms ease;
+    -ms-transition: all 250ms ease;
+    transition: all 250ms ease;
+}
+.large-in:hover {
+    -webkit-transform: scale(1.1, 1.1);
+    -moz-transform: scale(3, 3);
+    -o-transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
+}
 /*
 2.2 Buttons - There are buttons on a transparent background, primary and secondary color background.
 **********/
