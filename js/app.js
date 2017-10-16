@@ -377,17 +377,17 @@ $("#send-mail").click(function () {
 
 function initializeMap() {
 
-    var lat = '10.7202'; //Set your latitude.
-    var lon = '122.5621'; //Set your longitude.
+    var lat = '10.716922'; //Set your latitude.
+    var lon = '122.264847'; //Set your longitude.
 
-    var centerLon = lon - 0.0105;
+    var centerLon = lon - 0.0012;
 
     var myOptions = {
         scrollwheel: false,
         draggable: false,
         disableDefaultUI: true,
         center: new google.maps.LatLng(lat, centerLon),
-        zoom: 15,
+        zoom: 18,
         mapTypeId: google.maps.MapTypeId.ROADMAP
     };
 
@@ -400,7 +400,7 @@ function initializeMap() {
     });
 
     var infowindow = new google.maps.InfoWindow({
-        content: "Your content goes here!"
+        content: "Welcome to the Municipality of Igbaras"
     });
 
     google.maps.event.addListener(marker, 'click', function () {
