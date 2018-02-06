@@ -1,2 +1,2 @@
 AIzaSyA3Dwl64oCkOPzFPWIHaARuZPAhjyVDO0w
-"https://maps.googleapis.com/maps/api/js?key=AIzaSyA3Dwl64oCkOPzFPWIHaARuZPAhjyVDO0w"
+"https://maps.googleapis.com/maps/api/js?key=AIzaSyA3Dwl64oCkOPzFPWIHaARuZPAhjyVDO0w&callback=initializeMap"
