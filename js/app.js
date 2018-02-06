@@ -325,7 +325,7 @@ $("#send-mail").click(function () {
         }
     });
     
-    //animate sectond team member
+    //animate second team member
     jQuery('#second-person').bind('inview', function (event, visible) {
         if (visible == true) {
             jQuery('#second-person').addClass("animated pulse");

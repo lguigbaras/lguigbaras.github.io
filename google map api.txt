@@ -1,2 +1,2 @@
 AIzaSyA3Dwl64oCkOPzFPWIHaARuZPAhjyVDO0w 
-"http://maps.googleapis.com/maps/api/js?v=AIzaSyA3Dwl64oCkOPzFPWIHaARuZPAhjyVDO0w"
+"http://maps.googleapis.com/maps/api/js?v=AIzaSyDCvGQj5PKydZJLFsCqwFn2GKHxCC-iOYA&libraries=places"
